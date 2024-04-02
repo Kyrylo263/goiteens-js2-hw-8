@@ -17,6 +17,50 @@
 
     <ul class="taskList"></ul>
 
+    <h1>Форма збереження даних</h1>
+
+    <form class="dataForm">
+        <label for="nameInput">Ім'я:</label>
+        <input type="text" class="nameInput" name="name">
+        <br>
+        <label for="emailInput">Email:</label>
+        <input type="email" class="emailInput" name="email">
+        <br>
+        <label for="messageInput">Повідомлення:</label><br>
+        <textarea class="messageInput" name="message" rows="4" cols="50"></textarea>
+        <br>
+        <button type="submit">Зберегти</button>
+    </form>
+
+    <h1>Закладки</h1>
+
+    <form class="bookmarkForm">
+        <input type="text" class="bookmarkInput" placeholder="Введіть URL">
+        <button type="submit">Додати закладку</button>
+    </form>
+
+    <ul class="bookmarkList"></ul>
+
+    <h1>Контакти</h1>
+
+    <form id="contactForm">
+        <label for="firstNameInput">Ім'я:</label>
+        <input type="text" id="firstNameInput" name="firstName">
+        <br>
+        <label for="lastNameInput">Прізвище:</label>
+        <input type="text" id="lastNameInput" name="lastName">
+        <br>
+        <label for="phoneInput">Телефон:</label>
+        <input type="tel" id="phoneInput" name="phone">
+        <br>
+        <label for="emailInput">Email:</label>
+        <input type="email" id="emailInput" name="email">
+        <br>
+        <button type="submit">Додати контакт</button>
+    </form>
+
+    <ul id="contactList"></ul>
+
     <script type="module" src="index.js"></script>
 
 </body>
